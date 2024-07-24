@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Madrid.ProductReservations.Application.Contracts\Madrid.ProductReservations.Application.Contracts.csproj" />
+    <ProjectReference Include="..\Madrid.ProductReservations.Domain\Madrid.ProductReservations.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

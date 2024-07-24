@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34928.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Madrid.ProductReservations.Application.Contracts", "src\Madrid.ProductReservations.Application.Contracts\Madrid.ProductReservations.Application.Contracts.csproj", "{F3C6940F-AD88-4C96-88AD-FD5031ADC034}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Madrid.ProductReservations.Domain", "src\Madrid.ProductReservations.Domain\Madrid.ProductReservations.Domain.csproj", "{94EF7712-3150-4FA2-A8C2-7D3361775485}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Madrid.ProductReservations.Application", "src\Madrid.ProductReservations.Application\Madrid.ProductReservations.Application.csproj", "{319DA1C0-C87F-4811-BD21-FBD9567EC7A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Madrid.ProductReservations.EntityFrameworkCore.PostgreSql", "src\Madrid.ProductReservations.EntityFrameworkCore.PostgreSql\Madrid.ProductReservations.EntityFrameworkCore.PostgreSql.csproj", "{A25532B6-3659-4598-B17C-D6043058533F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Madrid.ProductReservations.Implementaion.PostgreSql", "src\Madrid.ProductReservations.Implementaion.PostgreSql\Madrid.ProductReservations.Implementaion.PostgreSql.csproj", "{83DE496E-E5BC-4519-AFD1-111FAF87E03D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{6D04893A-7C36-4F49-BA55-15A50E659FC0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductReservations.Implementation.PostgreSql.IntegrationTests", "test\ProductReservations.Implementation.PostgreSql.IntegrationTests\ProductReservations.Implementation.PostgreSql.IntegrationTests.csproj", "{8CAE691B-7B22-454F-9305-177B68CB536A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F3C6940F-AD88-4C96-88AD-FD5031ADC034}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3C6940F-AD88-4C96-88AD-FD5031ADC034}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3C6940F-AD88-4C96-88AD-FD5031ADC034}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3C6940F-AD88-4C96-88AD-FD5031ADC034}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94EF7712-3150-4FA2-A8C2-7D3361775485}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94EF7712-3150-4FA2-A8C2-7D3361775485}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94EF7712-3150-4FA2-A8C2-7D3361775485}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94EF7712-3150-4FA2-A8C2-7D3361775485}.Release|Any CPU.Build.0 = Release|Any CPU
+		{319DA1C0-C87F-4811-BD21-FBD9567EC7A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{319DA1C0-C87F-4811-BD21-FBD9567EC7A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{319DA1C0-C87F-4811-BD21-FBD9567EC7A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{319DA1C0-C87F-4811-BD21-FBD9567EC7A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A25532B6-3659-4598-B17C-D6043058533F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A25532B6-3659-4598-B17C-D6043058533F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A25532B6-3659-4598-B17C-D6043058533F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A25532B6-3659-4598-B17C-D6043058533F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83DE496E-E5BC-4519-AFD1-111FAF87E03D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83DE496E-E5BC-4519-AFD1-111FAF87E03D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83DE496E-E5BC-4519-AFD1-111FAF87E03D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83DE496E-E5BC-4519-AFD1-111FAF87E03D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CAE691B-7B22-454F-9305-177B68CB536A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CAE691B-7B22-454F-9305-177B68CB536A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CAE691B-7B22-454F-9305-177B68CB536A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CAE691B-7B22-454F-9305-177B68CB536A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8CAE691B-7B22-454F-9305-177B68CB536A} = {6D04893A-7C36-4F49-BA55-15A50E659FC0}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1D56035A-101C-4EF4-B59A-DD41B018A564}
+	EndGlobalSection
+EndGlobal
